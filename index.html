@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MENU</title>
+</head>
+<body>
+	<script type="text/javascript">
+		selec=(prompt("SELECCIONE UNA OPCION  a.-SUMA <br> b.-RESTA <br> c.-MULTIPLICACION <br> d.-DIVISION <br> e.-TRANSPUESTA <br> f.-MULTIPLICACION POR ESCALAR"))
+				
+
+
+				switch(selec){
+
+					case "1":
+   							document.write("MATRIZ INICIAL: <br>");
+							var matri_ini = new Array(3);
+							for (var i = 0; i<matri_ini.length; i++)
+							{
+								matriz_inicial[i]=new Array(3);
+							}
+
+							matri_ini[0][0] = 1;
+							matri_ini[0][1] = 2;
+							mmatri_ini[0][2] = 3;
+
+							matri_ini[1][0] = 4;
+							matri_ini[1][1] = 5;
+							matri_ini[1][2] = 6;
+
+							matri_ini[2][0] = 7;
+							matri_ini[2][1] = 8;
+							matri_ini[2][2] = 9;
+							for (var i = 0; i < matri_ini.length; i++) 
+							{
+								for (var j = 0; j < matri_ini[i].length; j++) 
+								{
+									document.write(matri_ini[i][j] + " ");
+								}
+
+								document.write("<br>");
+							}
+
+
+					        document.write("MATRIZ SECUNDARIA: <br>");
+					        var matri_secunda = new Array(3);
+							for (var i = 0; i<matri_secunda.length; i++)
+							{
+								matri_secunda[i]=new Array(3);
+							}
+
+							matri_secunda[0][0] = 1;
+							matri_secunda[0][1] = 2;
+							matri_secunda[0][2] = 3;
+
+							matri_secunda[1][0] = 4;
+							matri_secunda[1][1] = 5;
+							matri_secunda[1][2] = 6;
+
+							matri_secunda[2][0] = 7;
+							matri_secunda[2][1] = 8;
+							matri_secunda[2][2] = 9;
+							for (var i = 0; i < matri_secunda.length; i++) 
+							{
+								for (var j = 0; j < matri_secunda[i].length; j++) 
+								{
+									document.write(matri_secunda[i][j] + " ");
+								}
+
+								document.write("<br>");
+							}
+							document.write("suma: <br>");
+							for (var i = 0; i < matri_secunda.length; i++) 
+							{
+								for (var j = 0; j < matri_secunda[i].length; j++) 
+								{
+									document.write(matri_ini[i][j] + matri_secunda [i][j]) ; 
+									document.write(" ");
+								}
+								document.write("<br>");
+							}
+					   					 break;
+
+   					case "2":
+   					 	document.write("Matriz inicial: <br>");
+						var matriz_inicia = new Array(3);
+						for (var i = 0; i<matriz_inicia.length; i++)
+						{
+							matriz_inicial[i]=new Array(3);
+						}
+
+						matriz_inicia[0][0] = 1;
+						matriz_inicia[0][1] = 2;
+						matriz_inicia[0][2] = 3;
+
+						matriz_inicia[1][0] = 4;
+						matriz_inicia[1][1] = 5;
+						matriz_inicia[1][2] = 6;
+
+						matriz_inicia[2][0] = 7;
+						matriz_inicia[2][1] = 8;
+						matriz_inicia[2][2] = 9;
+						for (var i = 0; i < matriz_inicia.length; i++) 
+						{
+							for (var j = 0; j < matriz_inicia[i].length; j++) 
+							{
+								document.write(matriz_inicia[i][j] + " ");
+							}
+
+							document.write("<br>");
+						}
+
+
+				        document.write("Matriz Secundaria: <br>");
+				        var matri_secundari = new Array(3);
+						for (var i = 0; i<matriz_secundari.length; i++)
+						{
+							matri_secundaria[i]=new Array(3);
+						}
+
+						matri_secundari[0][0] = 1;
+						matri_secundari[0][1] = 2;
+						matri_secundari[0][2] = 3;
+
+						matri_secundari[1][0] = 4;
+						matri_secundari[1][1] = 5;
+						matri_secundari[1][2] = 6;
+
+						matri_secundari[2][0] = 7;
+						matri_secundari[2][1] = 8;
+						matri_secundari[2][2] = 9;
+						for (var i = 0; i < matri_secundari.length; i++) 
+						{
+							for (var j = 0; j < matri_secundari[i].length; j++) 
+							{
+								document.write(matri_secundari[i][j] + " ");
+							}
+
+							document.write("<br>");
+						}
+						document.write("resta: <br>");
+						for (var i = 0; i < matri_secundari.length; i++) 
+						{
+							for (var j = 0; j < matri_secundari[i].length; j++) 
+							{
+								document.write(matriz_inicia[i][j] - matriz_secundaria [i][j]) ; 
+								document.write(" ");
+							}
+							document.write("<br>");
+						}
+   					 break;
+   					 case "3":
+   					 	document.write("Matriz inicial: <br>");
+						var matriz_inicia  = new Array(3);
+						for (var i = 0; i<matriz_inicia.length; i++)
+						{
+							matriz_inicial[i]=new Array(3);
+						}
+
+						matriz_inicia [0][0] = 1;
+						matriz_inicia [0][1] = 2;
+						matriz_inicia [0][2] = 3;
+
+						matriz_inicia [1][0] = 4;
+						matriz_inicia [1][1] = 5;
+						matriz_inicia [1][2] = 6;
+
+						matriz_inicia [2][0] = 7;
+						matriz_inicia [2][1] = 8;
+						matriz_inicia [2][2] = 9;
+						for (var i = 0; i < matriz_inicia.length; i++) 
+						{
+							for (var j = 0; j < matriz_inicia [i].length; j++) 
+							{
+								document.write(matriz_inicia[i][j] + " ");
+							}
+
+							document.write("<br>");
+						}
+
+
+				        document.write("Matriz Secundaria: <br>");
+				        var matriz_secundaria = new Array(3);
+						for (var i = 0; i<matriz_secundaria.length; i++)
+						{
+							matriz_secundaria[i]=new Array(3);
+						}
+
+						matri_secundari[0][0] = 1;
+						matri_secundari[0][1] = 2;
+						matri_secundari[0][2] = 3;
+
+						matri_secundari[1][0] = 4;
+						matri_secundari[1][1] = 5;
+						mmatri_secundari[1][2] = 6;
+
+						matri_secundari[2][0] = 7;
+						matri_secundari[2][1] = 8;
+						matri_secundari[2][2] = 9;
+						for (var i = 0; i < matri_secundari.length; i++) 
+						{
+							for (var j = 0; j < matri_secundari[i].length; j++) 
+							{
+								document.write(matri_secundari[i][j] + " ");
+							}
+
+							document.write("<br>");
+						}
+						document.write("resta: <br>");
+						for (var i = 0; i < matri_secundari.length; i++) 
+						{
+							for (var j = 0; j < matri_secundari[i].length; j++) 
+							{
+								document.write(matriz_inicia[i][j] * matri_secundari [i][j]) ; 
+								document.write(" ");
+							}
+							document.write("<br>");
+						}
+   					 break;
+
+   					 case "4":
+   					    document.write("Matriz inicial: <br>");
+						var matriz_inicia = new Array(3);
+						for (var i = 0; i<matriz_inicia.length; i++)
+						{
+							matriz_inicia[i]=new Array(3);
+						}
+
+						matriz_inicia[0][0] = 1;
+						matriz_inicia[0][1] = 2;
+						matriz_inicia[0][2] = 3;
+
+						matriz_inicia[1][0] = 4;
+						matriz_inicia[1][1] = 5;
+						matriz_inicia[1][2] = 6;
+
+						matriz_inicia[2][0] = 7;
+						matriz_inicia[2][1] = 8;
+						matriz_inicia[2][2] = 9;
+						for (var i = 0; i < matriz_inicia.length; i++) 
+						{
+							for (var j = 0; j < matriz_inicia[i].length; j++) 
+							{
+								document.write(matriz_inicia[i][j] + " ");
+							}
+
+							document.write("<br>");
+						}
+
+
+				        document.write("Matriz Secundaria: <br>");
+				        var matri_secundari = new Array(3);
+						for (var i = 0; i<matri_secundari.length; i++)
+						{
+							matri_secundari[i]=new Array(3);
+						}
+
+						matri_secundari[0][0] = 1;
+						matri_secundari[0][1] = 2;
+						matri_secundari[0][2] = 3;
+
+						matri_secundari[1][0] = 4;
+						matri_secundari[1][1] = 5;
+						matri_secundari[1][2] = 6;
+
+						matri_secundari[2][0] = 7;
+						matri_secundari[2][1] = 8;
+						matri_secundari[2][2] = 9;
+						for (var i = 0; i < matri_secundari.length; i++) 
+						{
+							for (var j = 0; j < matri_secundari[i].length; j++) 
+							{
+								document.write(matri_secundari[i][j] + " ");
+							}
+
+							document.write("<br>");
+						}
+						document.write("resta: <br>");
+						for (var i = 0; i < matri_secundari.length; i++) 
+						{
+							for (var j = 0; j < matri_secundari[i].length; j++) 
+							{
+								document.write(matriz_inicia[i][j] / matri_secundari [i][j]) ; 
+								document.write(" ");
+							}
+							document.write("<br>");
+						}
+						break;
+						
+				}
+				
+	</script>>
+
+</body>
+</html>>
